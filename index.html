@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A Todo List for Code Fellows</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <!-- Form for new Todo Items -->
+    <div class="form-title">Todo List
+    </div>
+    <form id="new-todo-form" method="POST" action="#">
+      <input type="text" name="new-todo" id="new-todo" placeholder="Add items to the list here" required>
+    </form>
+  
+    <!-- Todo Item List -->
+    <ul id="todo-items"></ul>
+  </div>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+        <!-- START Footer -->
+        <footer>
+        <small>
+        *note: this was built by following the treehouse article found <a href="http://blog.teamtreehouse.com/create-your-own-to-do-app-with-html5-and-indexeddb" target="_blank">here</a>
+        </small>
+        </footer>
+        <!-- END Footer -->
+</html>
